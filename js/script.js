@@ -20,6 +20,7 @@ stampa.addEventListener("click",
            // se non divisibile per entrambi
            else{
              document.getElementById("lista").innerHTML += "<p>" + i + "</p>" ;
+
            }
      }
 
@@ -34,7 +35,6 @@ stampa.addEventListener("click",
 // reset
 back.addEventListener("click",
 	function() {
-      lista.style.display = "none";
-      stampa.style.display = "block";
+      location.reload();
 	}
 );
